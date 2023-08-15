@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    letter-spacing: .3rem;
+    text-shadow: rgb(89, 89, 214) 3px 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    padding: .5em;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.navlink {
+    font-size: large;
+    padding: .5em;
+    border: 1px solid blue;
+    border-radius: .5em;
+    text-decoration: none;
+    color: black;
+    margin-right: 1em;
+    background-image: linear-gradient(to left, lightblue, azure);
+}
+
+.navlink:hover{
+    background-image: linear-gradient(to left, rgb(194, 202, 205), rgb(129, 136, 136));
+}
+
+.navlink-active{
+    background-image: linear-gradient(to left, aqua, rgb(94, 225, 181));
+}

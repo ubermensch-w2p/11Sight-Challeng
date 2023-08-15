@@ -1,0 +1,18 @@
+.history-list {
+    list-style-type: none;
+}
+
+.history-list li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: .5em;
+    justify-content: space-between;
+}
+
+.history-list li:first-child{
+    font-size: larger;
+}
+
+.history-list li:nth-child(odd){
+    background-color: lightcyan;
+}
